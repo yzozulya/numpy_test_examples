@@ -1,4 +1,3 @@
-import numpy as np
 import numpy.ma as ma
 
 a = ma.masked_values([1, 2, 3], 2)

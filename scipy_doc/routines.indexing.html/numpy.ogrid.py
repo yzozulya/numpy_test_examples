@@ -1,4 +1,3 @@
-import numpy as np
 from numpy import ogrid
 
 ogrid[-1:1:5j]

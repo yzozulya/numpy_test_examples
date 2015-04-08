@@ -1,4 +1,3 @@
-import numpy as np
 import numpy.ma as ma
 
 x = ma.masked_equal([0, 1, 0, 2, 3], 0)

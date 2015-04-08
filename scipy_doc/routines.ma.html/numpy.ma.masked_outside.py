@@ -1,4 +1,3 @@
-import numpy as np
 import numpy.ma as ma
 
 x = [0.31, 1.2, 0.01, 0.2, -0.4, -1.1]

@@ -1,4 +1,3 @@
-import numpy as np
 import numpy.ma as ma
 
 x = ma.arange(4).reshape((2, 2))

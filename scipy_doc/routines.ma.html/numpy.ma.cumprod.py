@@ -1,1 +1,3 @@
-import numpy as np
+import numpy
+
+numpy.ma.cumprod(axis=None, dtype=None, out=None)

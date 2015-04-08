@@ -1,1 +1,4 @@
-import numpy as np
+import numpy
+
+a = numpy.ma.MaskedArray()
+numpy.ma.dumps(a)

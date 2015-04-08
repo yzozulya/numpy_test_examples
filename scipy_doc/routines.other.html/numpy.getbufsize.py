@@ -1,1 +1,3 @@
-import numpy as np
+import numpy
+
+numpy.getbufsize()

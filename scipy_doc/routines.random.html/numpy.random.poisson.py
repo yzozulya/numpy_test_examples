@@ -1,5 +1,4 @@
 import numpy as np
-import numpy as np
 
 s = np.random.poisson(5, 10000)
 import matplotlib.pyplot as plt

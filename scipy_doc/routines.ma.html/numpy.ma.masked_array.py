@@ -1,1 +1,3 @@
-import numpy as np
+import numpy
+
+a = numpy.ma.masked_array()
