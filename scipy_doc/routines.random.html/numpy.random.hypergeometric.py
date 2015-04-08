@@ -1,3 +1,4 @@
+from matplotlib.pyplot import hist
 import numpy as np
 
 ngood, nbad, nsamp = 100, 2, 10

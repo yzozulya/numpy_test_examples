@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 dfnum = 3  # between group deg of freedom
 dfden = 20  # within groups degrees of freedom

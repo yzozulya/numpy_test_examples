@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 np.hanning(12)
 from numpy.fft import fft, fftshift

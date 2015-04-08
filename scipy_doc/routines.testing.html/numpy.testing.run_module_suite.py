@@ -1,3 +1,3 @@
-import numpy as np
+import numpy
 
-run_module_suite(file_to_run="numpy/tests/test_matlib.py")
+numpy.testing.run_module_suite(file_to_run="numpy/tests/test_matlib.py")

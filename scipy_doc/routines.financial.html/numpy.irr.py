@@ -1,4 +1,4 @@
-import numpy as np
+from numpy import irr
 
 round(irr([-100, 39, 59, 55, 20]), 5)
 round(irr([-100, 0, 0, 74]), 5)

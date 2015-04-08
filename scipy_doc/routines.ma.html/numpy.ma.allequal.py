@@ -1,4 +1,4 @@
-import numpy as np
+from numpy import array, ma
 
 a = ma.array([1e10, 1e-7, 42.0], mask=[0, 0, 1])
 a

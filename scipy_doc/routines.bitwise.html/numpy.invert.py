@@ -1,5 +1,7 @@
 import numpy as np
+from numpy import uint8, uint16, int8, array
 
+x = 1
 np.bitwise_not is np.invert
 np.invert(np.array([13], dtype=uint8))
 np.binary_repr(x, width=8)

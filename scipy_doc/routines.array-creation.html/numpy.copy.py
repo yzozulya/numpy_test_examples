@@ -1,5 +1,6 @@
 import numpy as np
 
+a = np.array([1, 2, 3])
 np.array(a, copy=True)
 x = np.array([1, 2, 3])
 y = x

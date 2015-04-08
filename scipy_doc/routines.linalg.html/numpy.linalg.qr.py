@@ -1,4 +1,5 @@
 import numpy as np
+import numpy.linalg as la
 
 a = np.random.randn(9, 6)
 q, r = np.linalg.qr(a)
@@ -11,6 +12,6 @@ np.allclose(r, np.triu(r3[:6, :6], k=0))
 A = np.array([[0, 1], [1, 1], [1, 1], [2, 1]])
 A
 b = np.array([1, 0, 2, 1])
-q, r = LA.qr(A)
+q, r = la.qr(A)
 p = np.dot(q.T, b)
-np.dot(LA.inv(r), p)
+np.dot(la.inv(r), p)

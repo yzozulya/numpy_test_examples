@@ -1,4 +1,4 @@
-import numpy as np
+from numpy import DataSource
 
 repos = DataSource()
 repos.exists('www.google.com/index.html')
